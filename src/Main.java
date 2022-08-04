@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        DBlogic db = new DBlogic();
+//        db.insert();
+        db.delete();
     }
 }
